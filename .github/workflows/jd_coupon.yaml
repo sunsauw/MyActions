@@ -6,7 +6,7 @@ name: 源头好物红包🧧
 on:
     workflow_dispatch:
     schedule:
-        - cron: "0 16 * * *"
+        - cron: "59 15 * * *"
     watch:
         types: [started]
     repository_dispatch:
